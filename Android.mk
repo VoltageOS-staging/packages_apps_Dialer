@@ -73,7 +73,6 @@ LOCAL_STATIC_JAVA_LIBRARIES := \
 	jsr305 \
 	libphonenumber \
 	volley \
-	org.lineageos.lib.phone \
 	androidx.annotation_annotation \
 
 LOCAL_STATIC_ANDROID_LIBRARIES := \

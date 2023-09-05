@@ -44,7 +44,6 @@ import com.android.dialer.constants.ActivityRequestCodes;
 import com.android.dialer.dialpadview.DialpadFragment;
 import com.android.dialer.dialpadview.DialpadFragment.DialpadListener;
 import com.android.dialer.dialpadview.DialpadFragment.OnDialpadQueryChangedListener;
-import com.android.dialer.helplines.HelplineActivity;
 import com.android.dialer.main.impl.bottomnav.BottomNavBar;
 import com.android.dialer.main.impl.toolbar.MainToolbar;
 import com.android.dialer.main.impl.toolbar.SearchBarListener;
@@ -452,8 +451,6 @@ public class MainSearchController implements SearchBarListener {
     } else if (menuItem.getItemId() == R.id.menu_call_history) {
       final Intent intent = new Intent(activity, CallLogActivity.class);
       activity.startActivity(intent);
-    } else if (menuItem.getItemId() == R.id.menu_helplines) {
-      activity.startActivity(new Intent(activity, HelplineActivity.class));
     }
     return false;
   }
